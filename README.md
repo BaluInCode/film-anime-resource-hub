@@ -3,19 +3,33 @@ A full-stack web application where users can upload, download, tag, search, and 
 This project was built to demonstrate full-stack development skills with React (frontend) and Node.js + Express + MongoDB (backend).
 
 Film-Anime-Resource-Hub/
+
 │
+
 ├── server/ # Backend (Node.js + Express + MongoDB)
+
 │ ├── index.js # Main server entry
+
 │ ├── models.js # Mongoose models (User, Resource)
+
 │ ├── middleware.js # Auth middleware
+
 │ ├── routes/ # Auth & Resource routes
+
 │ └── uploads/ # Uploaded files (auto-created)
+
 │
+
 ├── client/ # Frontend (React)
+
 │ ├── src/ # React components
+
 │ └── public/
+
 │
+
 └── README.md
+
 
 🚀 Features
 
